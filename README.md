@@ -7,6 +7,18 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+# Committing Changes
+
+Before pushing to the repository be sure to execute the ff so we can version the changes:
+
+- `npm version patch` - If commits only updates/debug a certain feature / function
+- `npm version minor` - If commits has new features / function
+- `npm version major` - Only for major release (Client stable)
+
+# CI Deployment
+
+Please note that whatever you push into the 'master' branch will be automatically deployed at `ilsa.smiles89.com`
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
